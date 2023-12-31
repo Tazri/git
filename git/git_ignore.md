@@ -16,3 +16,9 @@
 ```bash
 git rm --cached <filename>
 ```
+
+<hr />
+
+## [< Go Back git.md](./git.md)
+
+## [< Go Back README.md](./../README.md)

@@ -1,7 +1,13 @@
 Git Config
 ===========
 
-This file contains details about git config command.
+This file contains details about git config command. Here is table of contains : 
+
+- [--list](#list)
+- [Set Git Configuration](#set-git-configuration)
+- [Edit Configuration](#edit-configuration)
+
+<hr />
 
 ## --list
 
@@ -54,3 +60,9 @@ git config --edit
 git config --global --edit
 ```
 
+
+<hr />
+
+## [< Go Back git.md](./git.md)
+
+## [< Go Back README.md](./../README.md)

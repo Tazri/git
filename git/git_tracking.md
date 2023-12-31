@@ -1,6 +1,18 @@
 Track and Untrack
 =================
 
+**Table of contains :**
+
+- [Track Files and Directories](#track-files-and-directories)
+- [Untrack Files and Directories](#untrack-files-and-directories)
+- [Git Status](#git-status)
+- [Process to Tracking File](#process-to-tracking-file)
+- [Git Log](#git-log)
+- [Go Back Previous Version of Commit](#go-back-previous-version-of-commit)
+- [Git rm Command](#git-rm-command)
+
+<hr />
+
 ## Track Files and Directories
 
 > 🟢 Track files and directories are the files and directories thats git knows about.
@@ -129,3 +141,7 @@ git rm --force file_name
 
 
 <hr />
+
+## [< Go Back git.md](./git.md)
+
+## [< Go Back README.md](./../README.md)

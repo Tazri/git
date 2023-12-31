@@ -1,6 +1,20 @@
 Git Branch
 ===========
 
+This file contains : 
+
+- [Branch Command](#branch-command)
+- [Making the git branch](#making-the-git-branch)
+- [Switching Branch](#switching-branch)
+- [Rename the branch](#rename-the-branch)
+- [Deleting Branch](#deleting-branch)
+- [Merging Branch](#merging-branch)
+
+
+<hr />
+
+## Branch Command
+
 > 🟢 A branch is a new/sperate verson of the main or any other repository.
 
 **Use `branch --list` command see how many branches are created :**
@@ -65,3 +79,9 @@ git branch -D branch_name
 ```git
 git merge <branch_name> <with_merging_branch>
 ```
+
+<hr />
+
+## [< Go Back git.md](./git.md)
+
+## [< Go Back README.md](./../README.md)

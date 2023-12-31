@@ -30,3 +30,8 @@ git stash pop
 git stash apply stash@{stash_id}
 ```
 
+<hr />
+
+## [< Go Back git.md](./git.md)
+
+## [< Go Back README.md](./../README.md)
