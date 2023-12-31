@@ -1,57 +1,41 @@
-command/config
+command/branch
 ===============
 
 ### Listing
 
-**To see git configuration list locally :**
+**Use `branch --list` command see how many branches are created :**
 
 ```bash
-git config --list
+git branch --list
+git branch -l
+git branch
 ```
 
-**To see global git configuration use `--global` flag :**
+### Creating
 
+**Here is a command to create git branch :**
 ```bash
-git config --global --list
+git branch <new_branch_name>
 ```
-<hr />
 
-### Adding
+### Renaming
 
-**Syntax to set git spacific configuration :**
-
+**First goto the branch, and use `git branch -m` command to rename the branch :**
 ```bash
-git config configuration.name "value"
-```
-
-**Do this for globally :**
-```bash
-git config --global configuration.name "value"
-```
-
-### Removing
-
-**Syntex to unset git spacific configuration :**
-```bash
-git config --unset configuration.name
-```
-
-**Do this for gobally :**
-```bash 
-git config --global --unset configuration.name
+git branch -m <new_branch_name_for_renaming>
 ```
 
 
-### Editing
+### Deleting
 
-> 🟢 `--edit` flag used for configure git setting in terminal editor :
+**`git branch -d` command to delete branch. If any here is exist then the branch dose not deleting. Here is command :**
 
-**Locally :**
 ```bash
-git config --edit
+git branch -d branch_name
 ```
 
-**Gobally :**
+**`git branch -D` to Delete branch even some change exist :**
+
 ```bash
-git config --global --edit
+git branch -D branch_name
 ```
