@@ -54,7 +54,7 @@ git add --all
 
 > 🟢 If file and folder marked then those file and folder called staged file or folder.
 
-> 🟢 If unmark the file or folder in git then use `reset` command.
+> 🟢 If unmark the file or folder in git then use `reset` command. This process called unstaging.
 
 ```bash
 # for spacific file or folder
@@ -69,5 +69,37 @@ git reset
 
 ### Commiting
 
-> 🟢 This is the last state of tracking a file. this 
+> 🟢 This is the last state of tracking a file. Git commit is used to create a snapshot of the staged changes along a timeline of a git projects history.
+
+**Commit command used for commiting code :**
+
+```bash
+git commit -m "meaningfull message"
+```
+
+**Commiting with terminal editor :**
+```bash
+git commit
+```
+
+### Git Log
+
+> 🟢 `git log` command display commited snapshots. 
+
+```bash
+git log
+```
+
+**Structure of a snaptshot of commit :**
+```bash
+Author: authorName <user@email.com>
+Date:   date when commited
+
+    Here is the message for commit.
+```
+
+**To see git log in one line then use `--oneline` flag :**
+```bash
+git log --oneline
+```
 
