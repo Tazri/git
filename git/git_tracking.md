@@ -128,3 +128,4 @@ git rm --force file_name
 ```
 
 
+<hr />
