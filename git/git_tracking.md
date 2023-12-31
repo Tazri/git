@@ -82,7 +82,7 @@ git commit -m "meaningfull message"
 git commit
 ```
 
-### Git Log
+## Git Log
 
 > 🟢 `git log` command display commited snapshots. 
 
@@ -90,7 +90,7 @@ git commit
 git log
 ```
 
-**Structure of a snaptshot of commit :**
+**Structure of a snapshot of commit :**
 ```bash
 Author: authorName <user@email.com>
 Date:   date when commited
@@ -102,4 +102,29 @@ Date:   date when commited
 ```bash
 git log --oneline
 ```
+
+**Structure of a snapshot of commit if run --oneline flag :**
+```bash
+<commit id> commit message
+```
+
+## Go Back Previous Version of Commit
+
+> 🟢 Below command use for go back previous version of commit.
+
+```bash
+git reset --hard commit_id
+```
+
+> 🟢 `git reflog` command used to see `reset --hard` history.
+
+## Git rm command
+
+> `git rm -f` or `git rm --force` command used for forcefully remove individual files or a collection of files from directory and stage.
+
+```bash
+git rm -f file_name
+git rm --force file_name
+```
+
 
